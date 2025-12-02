@@ -1,0 +1,24 @@
+{
+  "name": "github-viewer",
+  "version": "1.0.0",
+  "description": "GitHub Profile Viewer - Full Stack TypeScript Application",
+  "scripts": {
+    "install-all": "cd server && npm install && cd ../client && npm install",
+    "dev": "concurrently \"cd server && npm run dev\" \"cd client && npm start\"",
+    "build": "cd server && npm run build && cd ../client && npm run build",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "github",
+    "profile",
+    "viewer",
+    "typescript",
+    "react",
+    "express"
+  ],
+  "author": "Ka Ram Kim",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
